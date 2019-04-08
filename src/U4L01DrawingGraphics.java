@@ -24,11 +24,11 @@ public class U4L01DrawingGraphics extends JFrame {
 	 private void initGUI(){
 	        //title 
 	        JPanel titlePanel = new JPanel(); 
-	        titlePanel.setBackground(Color.BLACK);
+	        titlePanel.setBackground(Color.GREEN);
 	        add(titlePanel, BorderLayout.PAGE_START);
-	        Font titleFont = new Font("Fish&Chips", Font.BOLD, 32);
-	        JLabel titleLabel = new JLabel("Drawing Examples");
-	        titleLabel.setBackground(Color.BLACK);
+	        Font titleFont = new Font("Bitter", Font.BOLD, 32);
+	        JLabel titleLabel = new JLabel("H20mln Games");
+	        titleLabel.setBackground(Color.PINK);
 	        titleLabel.setOpaque(true);
 	        titleLabel.setForeground(Color.WHITE);
 	        titleLabel.setFont(titleFont);
